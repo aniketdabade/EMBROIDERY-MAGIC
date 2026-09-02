@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f2e9">
+  <meta name="description" content="Embroidery Magic — handcrafted embroidery, personalized hoops and thoughtful handmade gifts.">
+  <title>Embroidery Magic — Stitched with love</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600;700&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Embroidery Magic home">
+      <span class="brand-mark">EM</span>
+      <span>
+        <strong>embroidery magic</strong>
+        <small>handmade with love</small>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#creations">Creations</a>
+      <a href="#custom">Custom Orders</a>
+      <a href="#story">Our Story</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="nav-cta" href="#custom">Start an order <span>↗</span></a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> Hand embroidery · personalized art</p>
+        <h1>Stories that<br><em>live in every stitch.</em></h1>
+        <p class="hero-text">Beautiful, handcrafted embroidery made to turn your memories, milestones and ideas into something you can keep forever.</p>
+        <div class="hero-actions">
+          <a class="btn btn-dark" href="#creations">Explore the work <span>↓</span></a>
+          <a class="text-link" href="#custom">Have an idea? Tell us <span>↗</span></a>
+        </div>
+        <div class="hero-proof">
+          <div class="mini-stack">
+            <span>✿</span><span>♡</span><span>✦</span>
+          </div>
+          <div><strong>Made one piece at a time.</strong><br><small>For gifts, celebrations & everyday magic.</small></div>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="hero-image-wrap">
+          <img src="assets/hero.jpg" alt="Hand embroidered personalized wedding hoop">
+          <div class="floating-note">
+            <span class="thread-icon">✦</span>
+            <div><small>Featured piece</small><strong>Personalized memories</strong></div>
+          </div>
+        </div>
+        <span class="scribble scribble-one">made by hand</span>
+        <span class="scribble scribble-two">♡</span>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Handmade specialties">
+      <div>PERSONALIZED HOOPS <span>✦</span> HAND EMBROIDERY <span>✦</span> MEMORY GIFTS <span>✦</span> FLORAL ART <span>✦</span> CUSTOM CREATIONS <span>✦</span></div>
+    </section>
+
+    <section class="intro section-pad">
+      <div class="section-kicker">01 — The magic</div>
+      <div class="intro-grid">
+        <h2>Not just embroidery.<br><em>A little piece of you.</em></h2>
+        <div>
+          <p>From names and special dates to flowers, portraits and tiny details that mean everything — every design is thoughtfully stitched by hand.</p>
+          <p class="muted">Tell us the story. We’ll help turn it into something beautiful.</p>
+          <a class="arrow-link" href="#custom">Create something personal <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="creations" class="creations section-pad">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">02 — Selected creations</div>
+          <h2>A gallery of <em>little stories.</em></h2>
+        </div>
+        <a class="arrow-link" href="#custom">Request a similar piece <span>→</span></a>
+      </div>
+
+      <div class="filters" role="tablist" aria-label="Gallery filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="hoops">Hoop Art</button>
+        <button class="filter" data-filter="gifts">Gifts</button>
+        <button class="filter" data-filter="floral">Floral</button>
+        <button class="filter" data-filter="wearable">Wearable</button>
+      </div>
+
+      <div class="gallery">
+        <button class="gallery-card tall" data-category="hoops" data-title="A memory in bloom" data-image="assets/gallery/wedding-hoop.jpg">
+          <img src="assets/gallery/wedding-hoop.jpg" alt="Personalized wedding embroidery hoop">
+          <span class="card-label">Personalized · Hoop Art</span>
+          <span class="view">View piece ↗</span>
+        </button>
+
+        <button class="gallery-card" data-category="gifts" data-title="Sisters, stitched together" data-image="assets/gallery/sisters-hoop.jpg">
+          <img src="assets/gallery/sisters-hoop.jpg" alt="Personalized sisters embroidery hoop">
+          <span class="card-label">Gift · Personalized</span>
+          <span class="view">View piece ↗</span>
+        </button>
+
+        <button class="gallery-card" data-category="gifts hoops" data-title="Tiny feet, big love" data-image="assets/gallery/baby-hoop.jpg">
+          <img src="assets/gallery/baby-hoop.jpg" alt="Baby themed embroidery hoop">
+          <span class="card-label">Baby · Memory Hoop</span>
+          <span class="view">View piece ↗</span>
+        </button>
+
+        <button class="gallery-card wide" data-category="gifts floral" data-title="A bouquet that lasts" data-image="assets/gallery/birthday-bouquet.jpg">
+          <img src="assets/gallery/birthday-bouquet.jpg" alt="Handmade embroidered flower bouquet">
+          <span class="card-label">Gift · Floral</span>
+          <span class="view">View piece ↗</span>
+        </button>
+
+        <button class="gallery-card" data-category="hoops gifts" data-title="A birth story" data-image="assets/gallery/baby-memory-hoop.jpg">
+          <img src="assets/gallery/baby-memory-hoop.jpg" alt="Personalized baby memory embroidery">
+          <span class="card-label">Memory · Hoop Art</span>
+          <span class="view">View piece ↗</span>
+        </button>
+
+        <button class="gallery-card" data-category="wearable floral" data-title="A flower for your hair" data-image="assets/gallery/hair-flower.jpg">
+          <img src="assets/gallery/hair-flower.jpg" alt="Hand embroidered flower hair accessory">
+          <span class="card-label">Wearable · Floral</span>
+          <span class="view">View piece ↗</span>
+        </button>
+
+        <button class="gallery-card" data-category="floral" data-title="Fine floral detail" data-image="assets/gallery/floral-detail.jpg">
+          <img src="assets/gallery/floral-detail.jpg" alt="Close-up of floral hand embroidery">
+          <span class="card-label">Floral · Detail</span>
+          <span class="view">View piece ↗</span>
+        </button>
+
+        <button class="gallery-card" data-category="wearable floral gifts" data-title="A little blue bloom" data-image="assets/gallery/blue-flower.jpg">
+          <img src="assets/gallery/blue-flower.jpg" alt="Handmade blue embroidered flower">
+          <span class="card-label">Wearable · Handmade</span>
+          <span class="view">View piece ↗</span>
+        </button>
+
+        <button class="gallery-card wide" data-category="gifts floral" data-title="Sunshine, stitched" data-image="assets/gallery/sunflower-bouquet.jpg">
+          <img src="assets/gallery/sunflower-bouquet.jpg" alt="Sunflower and blue handmade embroidered bouquet">
+          <span class="card-label">Gift · Floral Bouquet</span>
+          <span class="view">View piece ↗</span>
+        </button>
+
+        <button class="gallery-card" data-category="wearable floral" data-title="A flower in your hair" data-image="assets/gallery/red-flower-hair.jpg">
+          <img src="assets/gallery/red-flower-hair.jpg" alt="Red embroidered flower hair accessory">
+          <span class="card-label">Wearable · Floral</span>
+          <span class="view">View piece ↗</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <p>“Handmade with love,<br><em>blooming with happiness.</em>”</p>
+    </section>
+
+    <section id="custom" class="custom section-pad">
+      <div class="custom-intro">
+        <div class="section-kicker">03 — Custom orders</div>
+        <h2>Bring us an idea.<br><em>We’ll stitch the rest.</em></h2>
+        <p>Already have a photo, a name, a date or just an idea in your head? Send the details and we’ll get back to you with a personalized quote.</p>
+        <div class="custom-points">
+          <span>✦ Your idea, your colours</span>
+          <span>✦ Personalised names & dates</span>
+          <span>✦ Made especially for gifting</span>
+        </div>
+      </div>
+
+      <form class="order-form" id="orderForm">
+        <div class="form-top">
+          <span>Custom enquiry</span>
+          <span>Usually replied to on WhatsApp</span>
+        </div>
+
+        <label>Your name <input required name="name" placeholder="e.g. Priya"></label>
+        <label>WhatsApp number <input required name="phone" placeholder="+91 98765 43210"></label>
+
+        <label>What would you like?
+          <select name="type" required>
+            <option value="">Choose one</option>
+            <option>Personalized hoop</option>
+            <option>Portrait / couple art</option>
+            <option>Baby / birth memory</option>
+            <option>Floral / gift bouquet</option>
+            <option>Wearable embroidery</option>
+            <option>Something completely custom</option>
+          </select>
+        </label>
+
+        <div class="two-col">
+          <label>Preferred size <input name="size" placeholder="e.g. 8 inch"></label>
+          <label>Needed by <input name="date" type="date"></label>
+        </div>
+
+        <label>Tell us about your idea
+          <textarea required name="message" rows="4" placeholder="Names, occasion, colours, reference photo details, anything you have in mind..."></textarea>
+        </label>
+
+        <label class="upload">
+          <span>Reference image</span>
+          <input type="file" accept="image/*" name="reference">
+          <small>Optional · attach a photo for inspiration</small>
+        </label>
+
+        <button class="btn btn-dark full" type="submit">Send enquiry on WhatsApp <span>↗</span></button>
+        <p class="form-note">No payment is taken here. We’ll discuss the design, price and delivery first.</p>
+      </form>
+    </section>
+
+    <section class="process section-pad">
+      <div class="section-kicker">04 — How it works</div>
+      <div class="process-grid">
+        <div class="process-intro"><h2>From idea to<br><em>keepsake.</em></h2></div>
+        <div class="step"><span>01</span><h3>Tell us your story</h3><p>Share your idea, reference photo, names or special date.</p></div>
+        <div class="step"><span>02</span><h3>We plan the design</h3><p>We discuss size, colours, details and give you a quote.</p></div>
+        <div class="step"><span>03</span><h3>We stitch it by hand</h3><p>Your piece is carefully created, one stitch at a time.</p></div>
+        <div class="step"><span>04</span><h3>You make a memory</h3><p>We finish, pack and arrange delivery of your handmade piece.</p></div>
+      </div>
+    </section>
+
+    <section id="story" class="story section-pad">
+      <div class="story-image">
+        <img src="assets/gallery/floral-detail.jpg" alt="Close-up of hand embroidery stitches">
+        <span class="story-stamp">made<br>with<br>love</span>
+      </div>
+      <div class="story-copy">
+        <div class="section-kicker">05 — Our story</div>
+        <h2>The hands<br>behind the <em>magic.</em></h2>
+        <p>Embroidery Magic is about slowing down and making something that feels personal. Every piece is built by hand — from the first idea to the final stitch.</p>
+        <p>Whether it is a wedding memory, a thoughtful gift, a tiny milestone or simply a flower you love, the goal is always the same: make something that feels like <em>you.</em></p>
+        <a class="arrow-link" href="#contact">Say hello <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="instagram section-pad">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">06 — Follow the journey</div>
+          <h2>More magic on <em>Instagram.</em></h2>
+        </div>
+        <a class="btn btn-outline" href="https://www.instagram.com/embroidery_magic_/" target="_blank" rel="noopener">@embroidery_magic_ ↗</a>
+      </div>
+      <div class="ig-grid">
+        <img src="assets/gallery/sunflower-bouquet.jpg" alt="">
+        <img src="assets/gallery/hair-flower.jpg" alt="">
+        <img src="assets/gallery/sisters-hoop.jpg" alt="">
+        <img src="assets/gallery/birthday-bouquet.jpg" alt="">
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact-inner">
+        <div>
+          <div class="section-kicker light">07 — Let’s make something</div>
+          <h2>Have a little<br><em>magic in mind?</em></h2>
+        </div>
+        <div class="contact-actions">
+          <a class="contact-line" href="#custom"><span>Start a custom order</span><b>↗</b></a>
+          <a class="contact-line" href="https://wa.me/?text=Hi%20Embroidery%20Magic!%20I%20would%20like%20to%20enquire%20about%20a%20custom%20embroidery." target="_blank" rel="noopener"><span>Chat on WhatsApp</span><b>↗</b></a>
+          <a class="contact-line" href="https://www.instagram.com/embroidery_magic_/" target="_blank" rel="noopener"><span>Visit Instagram</span><b>↗</b></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand footer-brand"><span class="brand-mark">EM</span><span><strong>embroidery magic</strong><small>handmade with love</small></span></div>
+    <span>© 2026 Embroidery Magic</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Close">×</button>
+    <img id="lightboxImage" src="" alt="">
+    <div class="lightbox-caption">
+      <small>Embroidery Magic</small>
+      <h3 id="lightboxTitle"></h3>
+      <a href="#custom" class="btn btn-light" id="lightboxOrder">Create something similar ↗</a>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">Your WhatsApp enquiry is ready ✦</div>
+  <script src="script.js"></script>
+</body>
+</html>
